@@ -1,0 +1,11 @@
+Create repo on github with readme and (node) .gitignore
+- Clone the repo locally
+- cd into project locally and `npm init`
+- Populate index.js with skeleton app listener and '/' route on a get method
+  -- NOTE - Do not forget to process.env.PORT
+- npm install express --save
+- Make sure package.json has a start script pointing to `start`: `node {your main server file such as index.js}`
+- Log into heroku and create a new app
+  -- Add heroku remote to local repo `heroku git:remote -a {app-name}`
+- git add, commit and then `git push origin master`, `git push heroku master`
+- If it works (:), `git checkout -b {branch_name}`
